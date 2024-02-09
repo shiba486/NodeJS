@@ -1,0 +1,19 @@
+node js is a javascript runtime built on chrome's v8  javascript engine
+
+npm :
+npm install -D nodemon;
+
+concept of module
+//immediately invoked function
+(function(name){
+    console.log(name);
+})("shiba")
+
+//In fact, every function in javascript has same behaviour , variable inside function not available outside
+
+This is from node js sourceCode.
+const wrapper = [
+    function(exports,require,module,__filename,__dirname){
+        
+    }();
+]
